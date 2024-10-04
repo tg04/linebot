@@ -1,0 +1,80 @@
+{
+    "type": "bubble",
+    "hero": {
+      "type": "image",
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOHKoWmofJMIzytrDyShuW9kW6Hom-3a-NQixYhxUo4Eqjf8VpZuzc9W2w0yRADxFU9ag&usqp=CAU",
+      "size": "full",
+      "aspectRatio": "20:13",
+      "aspectMode": "cover",
+      "action": {
+        "type": "uri",
+        "uri": "https://line.me/"
+      }
+    },
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "敲擊聲響",
+          "weight": "bold",
+          "size": "xl"
+        }
+      ]
+    },
+    "footer": {
+      "type": "box",
+      "layout": "vertical",
+      "spacing": "sm",
+      "contents": [
+        {
+          "type": "button",
+          "style": "link",
+          "height": "sm",
+          "action": {
+            "type": "message",
+            "label": "木地板有聲響",
+            "text": "木地板有聲響"
+          }
+        },
+        {
+          "type": "button",
+          "style": "link",
+          "height": "sm",
+          "action": {
+            "type": "message",
+            "label": "EP板有氣泡",
+            "text": "EP板有氣泡"
+          }
+        },
+        {
+          "type": "button",
+          "style": "link",
+          "height": "sm",
+          "action": {
+            "type": "message",
+            "label": "為什麼敲擊起來聲音不一樣",
+            "text": "為什麼敲擊起來聲音不一樣"
+          }
+        },
+        {
+          "type": "button",
+          "style": "link",
+          "height": "sm",
+          "action": {
+            "type": "message",
+            "label": "木地板跟SPC地板有一樣嗎？",
+            "text": "木地板跟SPC地板有一樣嗎？"
+          }
+        },
+        {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [],
+          "margin": "sm"
+        }
+      ],
+      "flex": 0
+    }
+  }
