@@ -1,0 +1,130 @@
+{
+    "type": "bubble",
+    "hero": {
+      "type": "image",
+      "url": "https://img.shoplineapp.com/media/image_clips/669cb41b1f897b0022bc6c1f/original.png?1721545755",
+      "size": "full",
+      "aspectRatio": "20:13",
+      "aspectMode": "cover",
+      "action": {
+        "type": "uri",
+        "uri": "https://line.me/"
+      }
+    },
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "清潔保養",
+          "weight": "bold",
+          "size": "xl"
+        }
+      ]
+    },
+    "footer": {
+      "type": "box",
+      "layout": "vertical",
+      "spacing": "sm",
+      "contents": [
+        {
+          "type": "button",
+          "style": "link",
+          "height": "sm",
+          "action": {
+            "type": "message",
+            "label": "寵物便溺在地板上怎麼辦？",
+            "text": "寵物便溺在地板上怎麼辦？"
+          }
+        },
+        {
+          "type": "button",
+          "style": "link",
+          "height": "sm",
+          "action": {
+            "type": "message",
+            "label": "木地板能不能拖地？",
+            "text": "木地板能不能拖地？"
+          }
+        },
+        {
+          "type": "button",
+          "style": "link",
+          "height": "sm",
+          "action": {
+            "type": "message",
+            "label": "木地板會不會有蟲害?為什麼?",
+            "text": "木地板會不會有蟲害?為什麼?"
+          }
+        },
+        {
+          "type": "button",
+          "style": "link",
+          "height": "sm",
+          "action": {
+            "type": "message",
+            "label": "可以使用掃地機器人嗎?",
+            "text": "可以使用掃地機器人嗎?"
+          }
+        },
+        {
+          "type": "button",
+          "style": "link",
+          "height": "sm",
+          "action": {
+            "type": "message",
+            "label": "可以使用掃拖機器人嗎？",
+            "text": "可以使用掃拖機器人嗎？"
+          }
+        },
+        {
+          "type": "button",
+          "style": "link",
+          "height": "sm",
+          "action": {
+            "type": "message",
+            "label": "木地板可以使用多久時間",
+            "text": "木地板可以使用多久時間"
+          }
+        },
+        {
+          "type": "button",
+          "style": "link",
+          "height": "sm",
+          "action": {
+            "type": "message",
+            "label": " 木地板能不能重壓?",
+            "text": " 木地板能不能重壓?"
+          }
+        },
+        {
+          "type": "button",
+          "style": "link",
+          "height": "sm",
+          "action": {
+            "type": "message",
+            "label": " 為什麼泡水會變形?",
+            "text": " 為什麼泡水會變形?"
+          }
+        },
+        {
+          "type": "button",
+          "style": "link",
+          "height": "sm",
+          "action": {
+            "type": "message",
+            "label": " 超耐磨木地板為什麼會刮傷?",
+            "text": " 超耐磨木地板為什麼會刮傷?"
+          }
+        },
+        {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [],
+          "margin": "sm"
+        }
+      ],
+      "flex": 0
+    }
+  }

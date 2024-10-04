@@ -1,0 +1,70 @@
+{
+    "type": "bubble",
+    "hero": {
+      "type": "image",
+      "url": "https://img.shoplineapp.com/media/image_clips/65e980eb8c4b86001d0839c3/original.png?1709801707",
+      "size": "full",
+      "aspectRatio": "20:13",
+      "aspectMode": "cover",
+      "action": {
+        "type": "uri",
+        "uri": "https://line.me/"
+      }
+    },
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "浮動隆起",
+          "weight": "bold",
+          "size": "xl"
+        }
+      ]
+    },
+    "footer": {
+      "type": "box",
+      "layout": "vertical",
+      "spacing": "sm",
+      "contents": [
+        {
+          "type": "button",
+          "style": "link",
+          "height": "sm",
+          "action": {
+            "type": "message",
+            "label": "全室施工在客廳處比較容易隆起?",
+            "text": "全室施工在客廳處比較容易隆起?"
+          }
+        },
+        {
+          "type": "button",
+          "style": "link",
+          "height": "sm",
+          "action": {
+            "type": "message",
+            "label": "木地板為什麼會浮動?",
+            "text": "木地板為什麼會浮動?"
+          }
+        },
+        {
+          "type": "button",
+          "style": "link",
+          "height": "sm",
+          "action": {
+            "type": "message",
+            "label": "為什麼內角浮動比較大",
+            "text": "為什麼內角浮動比較大"
+          }
+        },
+        {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [],
+          "margin": "sm"
+        }
+      ],
+      "flex": 0
+    }
+  }
