@@ -74,6 +74,26 @@
           "height": "sm",
           "action": {
             "type": "message",
+            "label": "我要報修",
+            "text": "我要報修"
+          }
+        },
+        {
+          "type": "button",
+          "style": "link",
+          "height": "sm",
+          "action": {
+            "type": "message",
+            "label": "我想購買材料",
+            "text": "我想購買材料"
+          }
+        },
+        {
+          "type": "button",
+          "style": "link",
+          "height": "sm",
+          "action": {
+            "type": "message",
             "label": "聯絡真人客服",
             "text": "聯絡真人客服"
           }
@@ -84,8 +104,8 @@
           "height": "sm",
           "action": {
             "type": "message",
-            "label": "預約真人服務",
-            "text": "預約真人服務"
+            "label": "預約客服人員服務",
+            "text": "預約客服人員服務"
           }
         },
         {
