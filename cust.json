@@ -22,13 +22,13 @@
     "contents": [
       {
         "type": "text",
-        "text": "預約真人服務",
+        "text": "預約客服人員服務",
         "size": "xl",
         "weight": "bold"
       },
       {
         "type": "text",
-        "text": "導覽展示間、工班現場視察等",
+        "text": "參訪展間、工地會勘",
         "wrap": true,
         "color": "#aaaaaa",
         "size": "xxs"

@@ -48,6 +48,9 @@ def handle_message(event):
     if(message == '敲擊聲響'):
         FlexMessage = json.load(open('sound.json','r',encoding='utf-8'))
         line_bot_api.reply_message(reply_token, FlexSendMessage('敲擊聲響',FlexMessage))
+    if(message == '我要報修'):
+        FlexMessage = json.load(open('report.json','r',encoding='utf-8'))
+        line_bot_api.reply_message(reply_token, FlexSendMessage('我要報修',FlexMessage))
     if(message == '預約客服人員服務'):
         FlexMessage = json.load(open('cust.json','r',encoding='utf-8'))
         line_bot_api.reply_message(reply_token, FlexSendMessage('預約客服人員服務',FlexMessage))
