@@ -1,120 +1,100 @@
 {
-    "type": "bubble",
-    "hero": {
-      "type": "image",
-      "url": "https://www.semihome.com.tw/upload/images/semiflor%20indoor%2001.jpg",
-      "size": "full",
-      "aspectRatio": "20:13",
-      "aspectMode": "cover",
-      "action": {
-        "type": "uri",
-        "uri": "https://line.me/"
-      }
-    },
-    "body": {
-      "type": "box",
-      "layout": "vertical",
-      "contents": [
-        {
-          "type": "text",
-          "text": "常見問題",
-          "weight": "bold",
-          "size": "xl"
-        }
-      ]
-    },
-    "footer": {
-      "type": "box",
-      "layout": "vertical",
-      "spacing": "sm",
-      "contents": [
-        {
-          "type": "button",
-          "style": "link",
-          "height": "sm",
-          "action": {
-            "type": "message",
-            "label": "清潔保養",
-            "text": "清潔保養"
-          }
-        },
-        {
-          "type": "button",
-          "style": "link",
-          "height": "sm",
-          "action": {
-            "type": "message",
-            "label": "保固修繕",
-            "text": "保固修繕"
-          }
-        },
-        {
-          "type": "button",
-          "style": "link",
-          "height": "sm",
-          "action": {
-            "type": "message",
-            "label": "浮動隆起",
-            "text": "浮動隆起"
-          }
-        },
-        {
-          "type": "button",
-          "style": "link",
-          "height": "sm",
-          "action": {
-            "type": "message",
-            "label": "敲擊聲響",
-            "text": "敲擊聲響"
-          }
-        },
-        {
-          "type": "button",
-          "style": "link",
-          "height": "sm",
-          "action": {
-            "type": "message",
-            "label": "我要報修",
-            "text": "我要報修"
-          }
-        },
-        {
-          "type": "button",
-          "style": "link",
-          "height": "sm",
-          "action": {
-            "type": "message",
-            "label": "我想購買材料",
-            "text": "我想購買材料"
-          }
-        },
-        {
-          "type": "button",
-          "style": "link",
-          "height": "sm",
-          "action": {
-            "type": "message",
-            "label": "聯絡真人客服",
-            "text": "聯絡真人客服"
-          }
-        },
-        {
-          "type": "button",
-          "style": "link",
-          "height": "sm",
-          "action": {
-            "type": "message",
-            "label": "預約客服人員服務",
-            "text": "預約客服人員服務"
-          }
-        },
-        {
-          "type": "box",
-          "layout": "vertical",
-          "contents": [],
-          "margin": "sm"
-        }
-      ],
-      "flex": 0
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "url": "https://www.semihome.com.tw/upload/images/semiflor%20indoor%2001.jpg",
+    "size": "full",
+    "aspectRatio": "20:13",
+    "aspectMode": "cover",
+    "action": {
+      "type": "uri",
+      "uri": "https://line.me/"
     }
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "常見問題",
+        "weight": "bold",
+        "size": "xl"
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "button",
+        "style": "link",
+        "height": "sm",
+        "action": {
+          "type": "message",
+          "label": "清潔保養",
+          "text": "清潔保養"
+        }
+      },
+      {
+        "type": "button",
+        "style": "link",
+        "height": "sm",
+        "action": {
+          "type": "message",
+          "label": "工序常見問題",
+          "text": "工序常見問題"
+        }
+      },
+      {
+        "type": "button",
+        "style": "link",
+        "height": "sm",
+        "action": {
+          "type": "message",
+          "label": "浮動感/空心聲",
+          "text": "浮動感/空心聲"
+        }
+      },
+      {
+        "type": "button",
+        "style": "link",
+        "height": "sm",
+        "action": {
+          "type": "message",
+          "label": "木地板跟SPC地板有一樣嗎？",
+          "text": "木地板跟SPC地板有一樣嗎？"
+        }
+      },
+      {
+        "type": "button",
+        "style": "link",
+        "height": "sm",
+        "action": {
+          "type": "message",
+          "label": "我要報修",
+          "text": "我要報修"
+        }
+      },
+      {
+        "type": "button",
+        "style": "link",
+        "height": "sm",
+        "action": {
+          "type": "message",
+          "label": "預約客服人員服務",
+          "text": "預約客服人員服務"
+        }
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [],
+        "margin": "sm"
+      }
+    ],
+    "flex": 0
   }
+}

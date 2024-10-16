@@ -39,15 +39,12 @@ def handle_message(event):
     if(message == '清潔保養'):
         FlexMessage = json.load(open('card.json','r',encoding='utf-8'))
         line_bot_api.reply_message(reply_token, FlexSendMessage('清潔保養',FlexMessage))
-    if(message == '保固修繕'):
+    if(message == '工序常見問題'):
         FlexMessage = json.load(open('fix.json','r',encoding='utf-8'))
-        line_bot_api.reply_message(reply_token, FlexSendMessage('保固修繕',FlexMessage))
-    if(message == '浮動隆起'):
-        FlexMessage = json.load(open('bulge.json','r',encoding='utf-8'))
-        line_bot_api.reply_message(reply_token, FlexSendMessage('浮動隆起',FlexMessage))
-    if(message == '敲擊聲響'):
+        line_bot_api.reply_message(reply_token, FlexSendMessage('工序常見問題',FlexMessage))
+    if(message == '浮動感/空心聲'):
         FlexMessage = json.load(open('sound.json','r',encoding='utf-8'))
-        line_bot_api.reply_message(reply_token, FlexSendMessage('敲擊聲響',FlexMessage))
+        line_bot_api.reply_message(reply_token, FlexSendMessage('浮動感/空心聲',FlexMessage))
     if(message == '我要報修'):
         FlexMessage = json.load(open('report.json','r',encoding='utf-8'))
         line_bot_api.reply_message(reply_token, FlexSendMessage('我要報修',FlexMessage))
